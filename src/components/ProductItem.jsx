@@ -30,6 +30,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-basis: 20%;
   background-color: #f5fbfd;
   position: relative;
   &:hover ${Info} {
@@ -66,7 +67,7 @@ const Icon = styled.div`
   }
 `;
 
-const Product = ({ item }) => {
+const ProductItem = ({ item }) => {
   return (
     <Container>
       <Circle />
@@ -86,4 +87,4 @@ const Product = ({ item }) => {
   );
 };
 
-export default Product;
+export default ProductItem;
